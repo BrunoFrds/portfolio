@@ -1,0 +1,86 @@
+.contact-page{
+    margin: 60px auto;
+    .title-page{
+        height: 220px;
+        background-color: $colorBackgroundSecond;
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+        border-color: rgba($white, 0.1);
+        .title-page__contact{
+            display: flex;
+            align-items: center;
+            font-size: 55px;
+            line-height: 60px;
+            margin: 0px 8%;
+            height: 220px;
+
+        }
+    }
+}
+
+.container-info{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 60px auto;
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        background-color: $colorBackgroundSecond;
+        border: solid 2px rgba($white, 0.1);
+        border-radius: 20px;
+        margin: 0px auto;
+        &__title{
+            text-align: center;
+            font-size: 30px;
+            line-height: 90px;
+            width: 300px;
+            margin: 0px auto;
+            border-bottom: solid 2px rgba($white, 0.8);
+        }
+        &__address{
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            line-height: 25px;
+            margin: 30px 0px 10px 50px;
+            .fa-location-crosshairs{
+                width: 30px;
+                height: 20px;
+                margin: 0px 20px 0px 0px;
+            }
+        }
+        &__phone{
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            line-height: 25px;
+            margin: 10px 0px 10px 50px;
+            .fa-mobile-screen-button{
+                width: 30px;
+                height: 20px;
+                margin: 0px 20px 0px 0px;
+            }
+        }
+        &__mail{
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            line-height: 25px;
+            margin: 10px 0px 30px 50px;
+            cursor: pointer;
+            .fa-envelope{
+                width: 30px;
+                height: 20px;
+                margin: 0px 20px 0px 0px;
+            }
+        }
+    }
+    .button-lien{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px auto;
+    }
+}
