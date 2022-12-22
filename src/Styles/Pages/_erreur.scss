@@ -1,0 +1,24 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    .error {
+        color: $white;
+        font-size: 200px;
+        line-height: 230px;
+        margin: 50px auto 20px auto;
+    }
+    .alert {
+    color: $white;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px auto 30px auto;
+    }
+    .redirection {
+    text-decoration: none;
+    color: $white;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 91px auto 100px auto;
+    border-bottom: solid 2px $white;
+    }
+  }
