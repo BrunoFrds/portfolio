@@ -30,9 +30,14 @@
                 .lien-pdf{
                     text-decoration: none;
                     color: $colorBackground;
-                    background-color: rgba($white, 0.8);
+                    background-color: rgba($white, 0.7);
                     border: solid 2px rgba($colorBackgroundSecond, 1.0);
                     border-radius: 20px;
+                    &:hover{
+                        background-color: rgba($white, $alpha: 1.0);
+                        transform: scale(1.1);
+                        transition: transform 0.1s ease-in-out;
+                    }
                     .title-pdf{
                         font-size: 20px;
                         line-height: 40px;
