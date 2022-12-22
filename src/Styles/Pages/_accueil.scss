@@ -1,0 +1,58 @@
+.accueil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+        .accueil-presentation{
+            width: 40%;
+            margin-left: 80px;
+            .accueil-name{
+                font-size: 50px;
+                line-height: 50px;
+                margin: 40px 0px 0px 0px;
+            }
+            .accueil-title{
+                font-size: 24px;
+                font-weight: lighter;
+                line-height: 35px;
+                margin: 40px 0px 0px 0px;
+                opacity: 0.5;
+            }
+            .accueil-description{
+                font-size: 20px;
+                line-height: 35px;
+                margin: 40px 0px 0px 0px;
+            }
+            .accueil-pdf{
+                display: flex;
+                justify-content: center;
+                margin: 50px 0px;
+                .lien-pdf{
+                    text-decoration: none;
+                    color: $colorBackground;
+                    background-color: rgba($white, 0.8);
+                    border: solid 2px rgba($colorBackgroundSecond, 1.0);
+                    border-radius: 20px;
+                    .title-pdf{
+                        font-size: 20px;
+                        line-height: 40px;
+                        font-weight: bold;    
+                        margin: 20px 10px;
+                    }
+                }
+            }
+        }    
+        &__logo{
+            width: 440px;
+            height: 440px;
+            background: $colorBackground;
+            border-radius: 220px;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.8);
+            .accueil__image{
+                display: block;
+                margin: 20px 20px;
+                width: 400px;
+                
+            }
+    }
+}

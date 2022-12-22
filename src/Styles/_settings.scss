@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Assets/fonts/Montserrat-Regular.otf");
+  }
+
+@font-face {
+font-family: "MontserratBold";
+src: url("../Assets/fonts/Montserrat-Bold.otf");
+}
+
+$fontRegular:"MontserratRegular", sans-serif;
+$fontBold:"MontserratBold", sans-serif;
+
+$colorBackground: #222222;
+$colorBackgroundSecond: #252525;
+$colorProgressbar: #007CED;
+$white: #DDD;
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family: $fontRegular;
+    background-color: $colorBackground;
+    color: $white;
+    }
