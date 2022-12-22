@@ -1,11 +1,10 @@
 import ProgressBar from "../../Components/ProgressBar/ProgressBar";
+import Banner from "../../Components/Banner/Banner";
 
 const Competences = () => {
   return (
     <div className="skills-page">
-      <div className="title-page">
-        <h1 className="title-page__skills">Compétences</h1>
-      </div>
+      <Banner bannerTitle="Compétences" />
       <div className="competences">
         <div className="skills">
           <h1 className="skills-title">Front-End Skills</h1>

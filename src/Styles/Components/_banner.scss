@@ -1,0 +1,17 @@
+.banner{
+    height: 220px;
+    background-color: $colorBackgroundSecond;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgba($color: $white, $alpha: 0.1);
+    .banner-title{
+        display: flex;
+        align-items: center;
+        font-size: 55px;
+        line-height: 60px;
+        margin: 0px 8%;
+        height: 220px;
+
+    }
+}
+

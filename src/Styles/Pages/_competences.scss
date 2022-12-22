@@ -1,21 +1,5 @@
 .skills-page{
     margin: 60px auto;
-    .title-page{
-        height: 220px;
-        background-color: $colorBackgroundSecond;
-        border-top: solid 2px;
-        border-bottom: solid 2px;
-        border-color: rgba($color: $white, $alpha: 0.1);
-        .title-page__skills{
-            display: flex;
-            align-items: center;
-            font-size: 55px;
-            line-height: 60px;
-            margin: 0px 8%;
-            height: 220px;
-
-        }
-    }
 }
 
 .competences{

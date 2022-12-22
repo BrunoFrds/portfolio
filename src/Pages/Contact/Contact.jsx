@@ -1,4 +1,5 @@
 import Button from "../../Components/Button/Button";
+import Banner from "../../Components/Banner/Banner";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocation,
@@ -23,9 +24,7 @@ const onEmailClick = () => {
 const Contact = () => {
   return (
     <div className="contact-page">
-      <div className="title-page">
-        <h1 className="title-page__contact">Contact</h1>
-      </div>
+      <Banner bannerTitle="Contact" />
       <div className="container-info">
         <div className="contact-info">
           <h1 className="contact-info__title">Me contacter</h1>
