@@ -8,6 +8,10 @@
     background-color: rgba($white, $alpha: 0.7);
     border-radius: 15px;
     border: solid 2px $colorBackgroundSecond;
+    &:hover{
+        background-color: rgba($white, $alpha: 1.0);
+
+    }
     .title-contact{
         color: $colorBackgroundSecond;
         font-size: 25px;
