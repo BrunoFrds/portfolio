@@ -1,0 +1,44 @@
+.skills-page{
+    margin: 60px auto;
+    .title-page{
+        height: 220px;
+        background-color: $colorBackgroundSecond;
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+        border-color: rgba($color: $white, $alpha: 0.1);
+        .title-page__skills{
+            display: flex;
+            align-items: center;
+            font-size: 55px;
+            line-height: 60px;
+            margin: 0px 8%;
+            height: 220px;
+
+        }
+    }
+}
+
+.competences{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+        .skills{
+            width: 40%;
+            height: 450px;
+            margin: auto;
+            &-title{
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                line-height: 70px;
+                width: 100%;
+                background-color: $colorBackgroundSecond;
+                border: solid 2px;
+                border-radius: 15px;
+                border-color: rgba($color: $white, $alpha: 0.1);
+                margin-bottom: 50px;
+            }
+        }
+    }
