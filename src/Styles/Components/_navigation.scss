@@ -11,6 +11,10 @@ nav {
     margin: auto;
     width: auto;
     text-align: center;
+    &:hover{
+      opacity: 1;
+      font-weight: bold;
+    }
     &:focus {
       opacity: 1;
       font-weight: bold;
