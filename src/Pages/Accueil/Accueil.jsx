@@ -8,10 +8,9 @@ const Accueil = () => {
         <img src={ellipse} alt="logo accueil" className="accueil-image" />
       </div>
       <div className="accueil-presentation">
-        <h1 className="accueil-name">Bruno Fernandes</h1>
         <h2 className="accueil-title">Développeur Front-end</h2>
         <p className="accueil-description">
-          Bonjour ! Je m'appelle Bruno et je suis développeur FrontEnd junior.{" "}
+          Bonjour ! Je suis développeur FrontEnd junior.
           <br />
           Autodidacte dans l'âme, j'ai aussi effectué une formation
           professionnalisante. <br />
