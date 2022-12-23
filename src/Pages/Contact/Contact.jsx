@@ -13,8 +13,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} />;
-const githubPage = <FontAwesomeIcon icon={faFacebook} />;
-const facebook = <FontAwesomeIcon icon={faGithub} />;
+const facebook = <FontAwesomeIcon icon={faFacebook} />;
+const githubPage = <FontAwesomeIcon icon={faGithub} />;
 
 const email = "bruno_fernandes@live.fr";
 const onEmailClick = () => {
