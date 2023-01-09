@@ -16,10 +16,24 @@ $colorBackgroundSecond: #252525;
 $colorProgressbar: #007CED;
 $white: #DDD;
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body{
-    width: 100%;
-    margin: auto;
-    font-family: $fontRegular;
-    background-color: $colorBackground;
-    color: $white;
-    }
+  font-family: $fontRegular;
+  background-color: $colorBackground;
+  color: $white;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

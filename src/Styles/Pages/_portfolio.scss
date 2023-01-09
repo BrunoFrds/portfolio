@@ -1,23 +1,20 @@
 .portfolio-page{
-    margin: 60px auto;
-    .title-page{
-        height: 220px;
-        background-color: $colorBackgroundSecond;
-        border-top: solid 2px;
-        border-bottom: solid 2px;
-        border-color: rgba($color: $white, $alpha: 0.1);
-        .title-page__portfolio{
+    margin: auto;
+    .portfolio-list{
+        width: 90%;
+        margin: auto;
+        &__projet{
             display: flex;
-            align-items: center;
-            font-size: 55px;
-            line-height: 60px;
-            margin: 0px 8%;
-            height: 220px;
+            justify-content: space-around;
+            flex-wrap: wrap;      
         }
     }
+}
+
+@media screen and (max-width: 720px){
     .portfolio-list{
-        width: 80%;
-        margin: 60px auto;
+        width: 90%;
+        margin: auto;
         &__projet{
             display: flex;
             justify-content: space-around;

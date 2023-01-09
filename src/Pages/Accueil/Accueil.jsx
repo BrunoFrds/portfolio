@@ -1,12 +1,8 @@
-import ellipse from "../../Assets/images/Ellipse.png";
 import cvbf from "../../Assets/documents/CV Bruno Fernandes.pdf";
 
 const Accueil = () => {
   return (
     <div className="accueil">
-      <div className="accueil-logo">
-        <img src={ellipse} alt="logo accueil" className="accueil-image" />
-      </div>
       <div className="accueil-presentation">
         <h2 className="accueil-title">Développeur Front-end</h2>
         <p className="accueil-description">
@@ -16,12 +12,14 @@ const Accueil = () => {
           professionnalisante. <br />
           Cela m'a permis de travailler sur divers projets mettant en avant mes
           compétences apprises. <br />
+          Vous trouverez ici un résumé de mes compétences et des projets que
+          j'ai pû effectuer.
         </p>
-        <div className="accueil-pdf">
-          <a className="lien-pdf" href={cvbf}>
-            <span className="title-pdf">Télécharger CV</span>
-          </a>
-        </div>
+      </div>
+      <div className="accueil-pdf">
+        <a className="lien-pdf" href={cvbf}>
+          <span className="title-pdf">Télécharger CV</span>
+        </a>
       </div>
     </div>
   );

@@ -6,14 +6,9 @@ import {
   faEnvelope,
   faMobileAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faLinkedin,
-  faFacebook,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} />;
-const facebook = <FontAwesomeIcon icon={faFacebook} />;
 const githubPage = <FontAwesomeIcon icon={faGithub} />;
 
 const email = "bruno_fernandes@live.fr";
@@ -53,11 +48,6 @@ const Contact = () => {
             lienContact="http://www.linkedin.com/in/bruno-frds"
             lienName="LinkedIn"
             lienIcon={linkedIn}
-          />
-          <Button
-            lienContact="http://facebook.com/BrunoFrds4960"
-            lienName="Facebook"
-            lienIcon={facebook}
           />
           <Button
             lienContact="https://github.com/BrunoFrds"

@@ -11,9 +11,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 400px;
     margin: 50px;
     &__img{
+        object-fit: contain;
+        background-color: #ffffff;
         width: 100%;
         height: 270px;
         border-radius: 25px;
@@ -27,17 +29,18 @@
             line-height: 30px;
             width: 160px;
             text-align: center;
-            margin: 20px;
+            margin: 20px 0px 0px 0px;
         }
         .card__description{
             font-size: 18px;
+            line-height: 25px;
             font-weight: bold;
             text-align: center;
             width: 90%;
             cursor: default;
         }
         .svg-inline--fa{
-            margin: 0px 10px;
+            margin: 10px 10px;
             height: 30px;
         }
         .lien-button{
@@ -54,6 +57,52 @@
             position: absolute;
             background: rgba($color: $colorBackground, $alpha: 0.8);    
             animation: info 0.5s ease-in-out forwards;
+        }
+    }
+}
+
+@media screen and (max-width: 720px){
+    .card{
+        width: 80%;
+        max-width: 400px;
+        margin: 20px;
+        &__info{
+            display: none;
+            height: 100%;
+            margin: 0px;
+            .card__name{
+                font-size: 20px;
+                line-height: 25px;
+                width: 160px;
+                text-align: center;
+                margin: 10px;
+            }
+            .card__description{
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+                width: 90%;
+                cursor: default;
+            }
+            .svg-inline--fa{
+                margin: 8px 10px;
+                height: 30px;
+            }
+            .lien-button{
+                color: $white;
+            }
+        }
+        &:hover{ 
+            transform: scale(1.1);
+            transition: transform 0.2s ease-in-out;
+            .card__info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                background: rgba($color: $colorBackground, $alpha: 0.8);    
+                animation: info 0.5s ease-in-out forwards;
+            }
         }
     }
 }

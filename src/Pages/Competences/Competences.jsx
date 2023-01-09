@@ -9,7 +9,7 @@ const Competences = () => {
         <div className="skills">
           <h1 className="skills-title">Front-End Skills</h1>
           <ProgressBar title="HTML" value="100" />
-          <ProgressBar title="CSS" value="95" />
+          <ProgressBar title="CSS / SASS" value="95" />
           <ProgressBar title="JavaScript" value="75" />
           <ProgressBar title="ReactJS" value="65" />
         </div>

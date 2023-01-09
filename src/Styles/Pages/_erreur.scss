@@ -11,7 +11,9 @@
     color: $white;
     font-size: 25px;
     line-height: 30px;
+    width: 90%;
     margin: 20px auto 30px auto;
+    text-align: center;
     }
     .redirection {
     text-decoration: none;
@@ -21,4 +23,23 @@
     margin: 91px auto 100px auto;
     border-bottom: solid 2px $white;
     }
-  }
+}
+
+@media screen and (max-width: 720px){
+    .error-page {
+        .error {
+            font-size: 100px;
+            line-height: 130px;
+            margin: 40px auto 20px auto;
+        }
+        .alert {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        .redirection {
+            font-size: 16px;
+            line-height: 20px;
+            margin: 50px auto 100px auto;
+        }
+    }
+}
