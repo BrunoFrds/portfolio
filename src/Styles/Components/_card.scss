@@ -53,6 +53,7 @@
         .card__info{
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
             position: absolute;
             background: rgba($color: $colorBackground, $alpha: 0.8);    
