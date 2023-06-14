@@ -71,7 +71,7 @@ const ListeProjet = [
     github: "https://github.com/BrunoFrds/ToDoList",
     picture: projImgToDo,
     description:
-      "Création d'une application de tâches. Ajout, modification, suppression.",
+      "Création d'une application de tâches. Ajout, modification, suppression de tâches.",
   },
   {
     id: "6",
