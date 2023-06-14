@@ -2,8 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Card = ({ name, image, description, icon, lien }) => {
+  const idCard = `${name}`;
+
   return (
-    <div className="card">
+    <div className="card" id={idCard}>
       <img src={image} alt="Projet" className="card__img" />
       <div className="card__info">
         <h1 className="card__name">{name}</h1>

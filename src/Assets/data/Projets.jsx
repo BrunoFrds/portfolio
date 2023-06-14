@@ -11,6 +11,8 @@ import projImgOmf from "../images/Ohmyfood.png";
 import projImgKanap from "../images/Kanap.png";
 import projImgPiq from "../images/Piiquante.png";
 import projImgKasa from "../images/Kasa.png";
+import projImgToDo from "../images/Todolist.png";
+import projImgMyFlix from "../images/MyflixScreen.png";
 
 const html = <FontAwesomeIcon icon={faHtml5} />;
 const css = <FontAwesomeIcon icon={faCss3} />;
@@ -36,7 +38,7 @@ const ListeProjet = [
     name: "Kanap",
     languages: ["JavaScript"],
     languagesIcons: [javascript],
-    github: "https://github.com/BrunoFrds/Kanap.git",
+    github: "https://github.com/BrunoFrds/Kanap",
     picture: projImgKanap,
     description:
       "Mise en place du front-end d'un site e-commerce pour une entreprise de vente de canapés. Le site devant être responsive.",
@@ -46,7 +48,7 @@ const ListeProjet = [
     name: "Kasa",
     languages: ["JavaScript", "ReactJS"],
     languagesIcons: [javascript, react, css],
-    github: "https://github.com/BrunoFrds/Kasa.git",
+    github: "https://github.com/BrunoFrds/Kasa",
     picture: projImgKasa,
     description:
       "Création d'un site immobilier en ReactJS. Suivi d'une maquette figma pour le visuel.",
@@ -56,10 +58,29 @@ const ListeProjet = [
     name: "Piiquante",
     languages: ["NodeJS", "ExpressJS", "MongoDB"],
     languagesIcons: [node],
-    github: "https://github.com/BrunoFrds/Piquante.git",
+    github: "https://github.com/BrunoFrds/Piquante",
     picture: projImgPiq,
     description:
       "Création d'une API sécurisée pour un site de notation et de vente de sauces piquantes.",
+  },
+  {
+    id: "5",
+    name: "ToDoList",
+    languages: ["Sass", "Javascript"],
+    languagesIcons: [sass, javascript],
+    github: "https://github.com/BrunoFrds/ToDoList",
+    picture: projImgToDo,
+    description:
+      "Création d'une application de tâches. Ajout, modification, suppression.",
+  },
+  {
+    id: "6",
+    name: "Myflix",
+    languages: ["Sass", "Javascript", "React", "NodeJS", "ExpresJS", "MongoDB"],
+    languagesIcons: [sass, javascript, react, node],
+    github: "https://github.com/BrunoFrds/Myflix",
+    picture: projImgMyFlix,
+    description: "Création d'un clone de Netflix. En cours!",
   },
 ];
 
