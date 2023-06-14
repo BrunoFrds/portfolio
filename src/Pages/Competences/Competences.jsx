@@ -11,7 +11,7 @@ const Competences = () => {
           <ProgressBar title="HTML" value="100" />
           <ProgressBar title="CSS / SASS" value="95" />
           <ProgressBar title="JavaScript" value="75" />
-          <ProgressBar title="ReactJS" value="65" />
+          <ProgressBar title="ReactJS" value="70" />
         </div>
         <div className="skills">
           <h1 className="skills-title">Back-End Skills</h1>
