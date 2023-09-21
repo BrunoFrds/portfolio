@@ -11,7 +11,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} />;
 const githubPage = <FontAwesomeIcon icon={faGithub} />;
 
-const email = "bruno_fernandes@live.fr";
+const email = "brunofrdsdev@gmail.com";
 const onEmailClick = () => {
   window.open(`mailto:${email}`);
 };
