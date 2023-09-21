@@ -40,7 +40,7 @@ const Contact = () => {
             <span className="mail-icon">
               <FontAwesomeIcon icon={faEnvelope} />
             </span>
-            bruno_fernandes@live.fr
+            brunofrdsdev@gmail.com
           </p>
         </div>
         <div className="button-lien">
