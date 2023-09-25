@@ -1,23 +1,26 @@
-.banner{
+.banner-background {
+  height: 220px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  background: $colorGradient;
+  .banner {
     display: flex;
     align-items: center;
-    height: 220px;
+    height: 216px;
     background-color: $colorBackgroundSecond;
-    border-top: solid 2px;
-    border-bottom: solid 2px;
-    border-color: rgba($color: $white, $alpha: 0.1);
-    .banner-title{
-        font-size: 3em;
-        margin: 0px 8%;
+    .banner-title {
+      font-size: 3em;
+      margin: 0px 8%;
     }
+  }
 }
 
-@media screen and (max-width: 720px){
-    .banner{
-        justify-content: center;
-        height: 110px;
-        .banner-title{
-            font-size: 2rem;
-        }
-    }    
+@media screen and (max-width: 720px) {
+  .banner {
+    justify-content: center;
+    height: 110px;
+    .banner-title {
+      font-size: 2rem;
+    }
+  }
 }

@@ -1,6 +1,6 @@
 const Banner = ({ bannerTitle }) => {
   return (
-    <div>
+    <div className="banner-background">
       <div className="banner">
         <h1 className="banner-title">{bannerTitle}</h1>
       </div>

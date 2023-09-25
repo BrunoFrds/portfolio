@@ -21,27 +21,29 @@ const Contact = () => {
     <div className="contact-page">
       <Banner bannerTitle="Contact" />
       <div className="container-info">
-        <div className="contact-info">
-          <h1 className="contact-info__title">Me contacter</h1>
-          <p className="contact-info__address">
-            <span className="address-icon">
-              <FontAwesomeIcon icon={faLocation} />
-            </span>
-            6 Avenue de la République <br />
-            93300 Aubervilliers
-          </p>
-          <p className="contact-info__phone">
-            <span className="phone-icon">
-              <FontAwesomeIcon icon={faMobileAlt} />
-            </span>
-            06 46 04 14 57
-          </p>
-          <p className="contact-info__mail" onClick={onEmailClick}>
-            <span className="mail-icon">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </span>
-            brunofrdsdev@gmail.com
-          </p>
+        <div className="contact-container">
+          <div className="contact-info">
+            <h1 className="contact-info__title">Me contacter</h1>
+            <p className="contact-info__address">
+              <span className="address-icon">
+                <FontAwesomeIcon icon={faLocation} />
+              </span>
+              6 Avenue de la République <br />
+              93300 Aubervilliers
+            </p>
+            <p className="contact-info__phone">
+              <span className="phone-icon">
+                <FontAwesomeIcon icon={faMobileAlt} />
+              </span>
+              06 46 04 14 57
+            </p>
+            <p className="contact-info__mail" onClick={onEmailClick}>
+              <span className="mail-icon">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
+              brunofrdsdev@gmail.com
+            </p>
+          </div>
         </div>
         <div className="button-lien">
           <Button

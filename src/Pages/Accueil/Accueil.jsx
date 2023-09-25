@@ -1,4 +1,4 @@
-import cvbf from "../../Assets/document/CVBrunoFernandes.pdf";
+import cvbf from "../../Assets/document/CV Bruno Fernandes.pdf";
 
 const Accueil = () => {
   return (
