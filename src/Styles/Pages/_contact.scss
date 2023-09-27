@@ -1,6 +1,6 @@
 .contact-page {
   margin: auto;
-  height: 80vh;
+  height: 100vh;
 }
 
 .container-info {
@@ -10,6 +10,7 @@
   margin: 60px auto;
   .contact-container {
     width: 500px;
+    height: 300px;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
     background: $colorGradient;
@@ -18,10 +19,11 @@
     .contact-info {
       display: flex;
       flex-direction: column;
-      width: 496px;
+      width: calc(100% - 4px);
+      height: 296px;
       background-color: $colorBackgroundSecond;
       border-radius: 20px;
-      margin: 0px auto;
+      margin: auto;
       &__title {
         text-align: center;
         font-size: 30px;
@@ -82,24 +84,26 @@
   .container-info {
     flex-direction: column;
     margin: 30px auto;
-    .contact-info {
-      margin-bottom: 20px;
+    .contact-container {
       width: 90%;
       max-width: 500px;
-      &__title {
-        font-size: 25px;
-        width: 80%;
-        max-width: 300px;
-      }
-      &__mail {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+      .contact-info {
+        &__title {
+          font-size: 25px;
+          width: 80%;
+          max-width: 300px;
+        }
+        &__mail {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
       }
     }
-  }
-  .button-lien {
-    flex-direction: row !important;
-    width: 90%;
+    .button-lien {
+      flex-direction: row !important;
+      width: 90%;
+      margin-top: 25px;
+    }
   }
 }

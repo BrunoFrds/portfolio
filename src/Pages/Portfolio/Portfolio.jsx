@@ -9,19 +9,17 @@ const Portfolio = () => {
     <div className="portfolio-page">
       <Banner bannerTitle="Projets" />
       <div className="portfolio-list">
-        <div className="portfolio-list__projet">
-          {ListeProjet.map((projet) => (
-            <Card
-              key={projet.id}
-              id={projet.id}
-              name={projet.name}
-              image={projet.picture}
-              description={projet.description}
-              icon={projet.languagesIcons}
-              lien={projet.github}
-            />
-          ))}
-        </div>
+        {ListeProjet.map((projet) => (
+          <Card
+            key={projet.id}
+            id={projet.id}
+            name={projet.name}
+            image={projet.picture}
+            description={projet.description}
+            icon={projet.languagesIcons}
+            lien={projet.github}
+          />
+        ))}
       </div>
     </div>
   );

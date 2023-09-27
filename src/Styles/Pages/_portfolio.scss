@@ -1,24 +1,19 @@
-.portfolio-page{
+.portfolio-page {
+  margin: auto;
+  .portfolio-list {
     margin: auto;
-    .portfolio-list{
-        width: 90%;
-        margin: auto;
-        &__projet{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;      
-        }
-    }
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }
 
-@media screen and (max-width: 720px){
-    .portfolio-list{
-        width: 90%;
-        margin: auto;
-        &__projet{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;      
-        }
-    }
+@media screen and (max-width: 720px) {
+  .portfolio-list {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
 }
