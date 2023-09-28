@@ -12,6 +12,10 @@ const Navigation = () => {
     setMenu(!menu);
   };
 
+  const closeMenu = () => {
+    setMenu(false);
+  };
+
   return (
     <nav className={`navbar ${menu ? "show-nav" : "hide-nav"}`}>
       <h1 className="title">
@@ -19,22 +23,26 @@ const Navigation = () => {
       </h1>
       <ul className="navbar__links">
         <li className="navbar__item slide-1">
-          <NavLink to="/" className="navbar__link">
+          <NavLink to="/" className="navbar__link" onClick={closeMenu}>
             Accueil
           </NavLink>
         </li>
         <li className="navbar__item slide-2">
-          <NavLink to="/competences" className="navbar__link">
+          <NavLink
+            to="/competences"
+            className="navbar__link"
+            onClick={closeMenu}
+          >
             Compétences
           </NavLink>
         </li>
         <li className="navbar__item slide-3">
-          <NavLink to="/portfolio" className="navbar__link">
+          <NavLink to="/portfolio" className="navbar__link" onClick={closeMenu}>
             Portfolio
           </NavLink>
         </li>
         <li className="navbar__item slide-4">
-          <NavLink to="/contact" className="navbar__link">
+          <NavLink to="/contact" className="navbar__link" onClick={closeMenu}>
             Contact
           </NavLink>
         </li>
