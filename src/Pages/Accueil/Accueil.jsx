@@ -17,7 +17,7 @@ const Accueil = () => {
         </p>
       </div>
       <div className="accueil-pdf">
-        <a className="lien-pdf" href={cvbf}>
+        <a className="lien-pdf" href={cvbf} target="_blank" rel="noreferrer">
           <span className="title-pdf">Télécharger CV</span>
         </a>
       </div>
