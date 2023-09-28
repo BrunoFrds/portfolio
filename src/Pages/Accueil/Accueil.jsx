@@ -6,7 +6,7 @@ const Accueil = () => {
       <div className="accueil-presentation">
         <h2 className="accueil-title">Développeur Front-end</h2>
         <p className="accueil-description">
-          Bonjour ! Je suis développeur FrontEnd junior.
+          Bonjour ! Je suis développeur FrontEnd.
           <br />
           Autodidacte dans l'âme, j'ai aussi effectué une formation
           professionnalisante. <br />
