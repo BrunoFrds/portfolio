@@ -94,8 +94,8 @@
         background: $colorGradient;
         border-radius: 10px;
         border: solid 2px $colorBackgroundSecond;
+        color: $colorBackgroundSecond;
         font-size: 20px;
-        font-family: $fontRegular;
         &:hover {
           background: $colorGradient;
           transform: scale(1.1);

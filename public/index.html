@@ -15,6 +15,32 @@
   </head>
 
   <body>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Nom et prénom"
+        required
+        className="input-name"
+      />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="E-mail"
+        required
+        className="input-email"
+      />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Message"
+        required
+        className="input-message"
+      ></textarea>
+    </form>
     <div id="root"></div>
   </body>
 </html>
