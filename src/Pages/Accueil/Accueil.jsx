@@ -1,4 +1,6 @@
 import cvbf from "../../Assets/document/CV Bruno Fernandes.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Accueil = () => {
   return (
@@ -18,8 +20,10 @@ const Accueil = () => {
       </div>
       <div className="accueil-pdf">
         <a className="lien-pdf" href={cvbf} target="_blank" rel="noreferrer">
-          <span className="title-pdf">Télécharger CV</span>
+          <FontAwesomeIcon icon={faDownload} className="download-icon" />
+          <span className="title-pdf">CV</span>
         </a>
+        <div class="background-circle"></div>
       </div>
     </div>
   );

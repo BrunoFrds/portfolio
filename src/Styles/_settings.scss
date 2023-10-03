@@ -11,11 +11,12 @@
 $fontRegular: "MontserratRegular", sans-serif;
 $fontBold: "MontserratBold", sans-serif;
 
-$colorBackground: #212529;
-$colorBackgroundSecond: #27323e;
-$colorGradient: linear-gradient(to left, #fc4a1a, #f7b733);
-$colorRed: #fc4a1a;
-$colorYellow: #f7b733;
+$colorBackground: #011627;
+$colorBackgroundSecond: #011e38;
+$colorGradient: linear-gradient(to right, #4efcbf, #49d5e5);
+$colorRadient: radial-gradient(#4efcbf, #49d5e5);
+$colorRed: #4efcbf;
+$colorYellow: #49d5e5;
 $white: #ddd;
 
 * {

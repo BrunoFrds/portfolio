@@ -27,19 +27,26 @@
     display: flex;
     align-items: center;
     .lien-pdf {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       color: $colorBackground;
-      background: $colorGradient;
-      border: solid 2px rgba($colorBackgroundSecond, 1);
-      border-radius: 20px;
-      width: 210px;
+      background: $colorRadient;
+      border-radius: 32.5px;
+      width: 65px;
       &:hover {
         background-color: rgba($white, $alpha: 1);
         transform: scale(1.1);
         transition: transform 0.1s ease-in-out;
+        box-shadow: 0 0 10px 5px $colorYellow;
+      }
+      .download-icon {
+        margin-top: 10px;
+        height: 20px;
       }
       .title-pdf {
         font-size: 20px;
-        line-height: 40px;
+        line-height: 35px;
         font-weight: bold;
         margin: 0px 26px;
       }
