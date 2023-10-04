@@ -57,7 +57,7 @@
     width: 0;
     height: 100vh;
     padding: 2rem;
-    background-color: #000000;
+    background-color: $colorBackground;
     transition: all 0.8s ease-out;
   }
   .show-nav .navbar__links {

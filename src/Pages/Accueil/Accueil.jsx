@@ -1,8 +1,36 @@
+import { useEffect } from "react";
 import cvbf from "../../Assets/document/CV Bruno Fernandes.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Accueil = () => {
+  useEffect(() => {
+    const lienPdf = document.querySelector(".lien-pdf");
+    const circleOne = document.querySelector(".circle-one");
+    const circleTwo = document.querySelector(".circle-two");
+
+    lienPdf.addEventListener("mouseover", () => {
+      circleOne.classList.add("hoveredOne");
+      circleTwo.classList.add("hoveredTwo");
+    });
+
+    lienPdf.addEventListener("mouseout", () => {
+      circleOne.classList.remove("hoveredOne");
+      circleTwo.classList.remove("hoveredTwo");
+    });
+
+    return () => {
+      lienPdf.removeEventListener("mouseover", () => {
+        circleOne.classList.add("hoveredOne");
+        circleTwo.classList.add("hoveredTwo");
+      });
+      lienPdf.removeEventListener("mouseout", () => {
+        circleOne.classList.remove("hoveredOne");
+        circleTwo.classList.remove("hoveredTwo");
+      });
+    };
+  }, []);
+
   return (
     <div className="accueil">
       <div className="accueil-presentation">
@@ -19,11 +47,12 @@ const Accueil = () => {
         </p>
       </div>
       <div className="accueil-pdf">
+        <div className="circle-two"></div>
         <a className="lien-pdf" href={cvbf} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faDownload} className="download-icon" />
           <span className="title-pdf">CV</span>
         </a>
-        <div class="background-circle"></div>
+        <div className="circle-one"></div>
       </div>
     </div>
   );
