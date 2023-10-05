@@ -63,7 +63,6 @@
           padding-left: 10px;
         }
       }
-
       .input-back-msg {
         display: flex;
         justify-content: center;
@@ -96,10 +95,10 @@
         border: solid 2px $colorBackgroundSecond;
         color: $colorBackgroundSecond;
         font-size: 20px;
+        transition: transform 0.1s ease-in-out;
         &:hover {
           background: $colorGradient;
           transform: scale(1.1);
-          transition: transform 0.1s ease-in-out;
         }
       }
     }

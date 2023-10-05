@@ -26,6 +26,7 @@
   width: 400px;
   height: 270px;
   margin: 30px;
+  transition: transform 0.2s ease-in-out;
   &__img {
     object-fit: contain;
     background-color: #ffffff;
@@ -67,7 +68,6 @@
   }
   &:hover {
     transform: scale(1.1);
-    transition: transform 0.2s ease-in-out;
     .card__info {
       display: flex;
       flex-direction: column;

@@ -9,25 +9,22 @@ const Accueil = () => {
     const circleOne = document.querySelector(".circle-one");
     const circleTwo = document.querySelector(".circle-two");
 
-    lienPdf.addEventListener("mouseover", () => {
+    const handleMouseOver = () => {
       circleOne.classList.add("hoveredOne");
       circleTwo.classList.add("hoveredTwo");
-    });
+    };
 
-    lienPdf.addEventListener("mouseout", () => {
+    const handleMouseOut = () => {
       circleOne.classList.remove("hoveredOne");
       circleTwo.classList.remove("hoveredTwo");
-    });
+    };
+
+    lienPdf.addEventListener("mouseover", handleMouseOver);
+    lienPdf.addEventListener("mouseout", handleMouseOut);
 
     return () => {
-      lienPdf.removeEventListener("mouseover", () => {
-        circleOne.classList.add("hoveredOne");
-        circleTwo.classList.add("hoveredTwo");
-      });
-      lienPdf.removeEventListener("mouseout", () => {
-        circleOne.classList.remove("hoveredOne");
-        circleTwo.classList.remove("hoveredTwo");
-      });
+      lienPdf.removeEventListener("mouseover", handleMouseOver);
+      lienPdf.removeEventListener("mouseout", handleMouseOut);
     };
   }, []);
 

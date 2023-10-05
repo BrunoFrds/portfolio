@@ -35,6 +35,11 @@
       background: $colorRadient;
       border-radius: 50%;
       width: 65px;
+      transition: transform 0.1s ease-in-out;
+      &:hover {
+        background-color: rgba($white, $alpha: 1);
+        transform: scale(1.1);
+      }
       .download-icon {
         margin-top: 10px;
         height: 20px;
@@ -44,11 +49,6 @@
         line-height: 35px;
         font-weight: bold;
         margin: 0px 26px;
-      }
-      &:hover {
-        background-color: rgba($white, $alpha: 1);
-        transform: scale(1.1);
-        transition: transform 0.1s ease-in-out;
       }
     }
     .circle-one {
@@ -60,10 +60,10 @@
       filter: brightness(80%);
       border-radius: 50%;
       z-index: -1;
+      transition: transform 0.15s ease-in-out;
     }
     .hoveredOne {
       transform: scale(1.4);
-      transition: transform 0.15s ease-in-out;
     }
     .circle-two {
       position: relative;
@@ -74,10 +74,10 @@
       filter: brightness(60%);
       border-radius: 50%;
       z-index: -2;
+      transition: transform 0.2s ease-in-out;
     }
     .hoveredTwo {
       transform: scale(1.7);
-      transition: transform 0.2s ease-in-out;
     }
   }
 }
