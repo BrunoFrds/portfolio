@@ -1,6 +1,5 @@
 .contact-page {
   margin: auto;
-  height: 100vh;
   .contact-back {
     display: flex;
     justify-content: space-between;
@@ -11,7 +10,6 @@
 
 @media screen and (max-width: 720px) {
   .contact-page {
-    height: 150vh;
     .contact-back {
       flex-direction: column;
     }
