@@ -48,7 +48,8 @@ const ListeProjet = [
     name: "Kasa",
     languages: ["JavaScript", "ReactJS"],
     languagesIcons: [javascript, react, css],
-    github: "https://github.com/BrunoFrds/Kasa",
+    url: "https://kasa-loca.netlify.app/",
+    github: "https://github.com/BrunoFrds/kasa",
     picture: projImgKasa,
     description:
       "Création d'un site immobilier en ReactJS. Suivi d'une maquette figma pour le visuel.",

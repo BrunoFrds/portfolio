@@ -18,6 +18,7 @@ const Portfolio = () => {
             description={projet.description}
             icon={projet.languagesIcons}
             lien={projet.github}
+            url={projet.url}
           />
         ))}
       </div>

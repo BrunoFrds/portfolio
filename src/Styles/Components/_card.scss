@@ -45,10 +45,14 @@
       background-clip: text;
       color: transparent;
       font-size: 25px;
+      font-weight: bold;
       line-height: 30px;
       width: 160px;
       text-align: center;
       margin: 20px 0px 0px 0px;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
     .card__description {
       font-size: 18px;
