@@ -1,5 +1,4 @@
 import List from "../Components/List";
-import Banner from "../Components/Banner";
 import Html from "../Assets/logos/icons8-html-48.png";
 import Css from "../Assets/logos/icons8-css-48.png";
 import Sass from "../Assets/logos/icons8-sass-48.png";
@@ -47,7 +46,6 @@ const Competences = () => {
   ];
   return (
     <div className="skills-page">
-      <Banner bannerTitle="Compétences" />
       <div className="competences">
         <List title={"Compétences"} elements={List1} />
         <List title={"Outils"} elements={List2} />
