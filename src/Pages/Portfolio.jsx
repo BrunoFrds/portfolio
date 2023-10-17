@@ -1,6 +1,6 @@
-import ListeProjet from "../../Assets/data/Projets";
-import Card from "../../Components/Card/Card";
-import Banner from "../../Components/Banner/Banner";
+import ListeProjet from "../Assets/data/Projets";
+import Card from "../Components/Card";
+import Banner from "../Components/Banner";
 
 const Portfolio = () => {
   const listeprojet = ListeProjet.map((proj) => proj.picture);

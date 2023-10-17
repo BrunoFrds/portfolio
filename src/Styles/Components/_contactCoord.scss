@@ -1,75 +1,66 @@
-.coord-container {
+.coord-info {
+  display: flex;
+  flex-direction: column;
   width: 45%;
   height: 400px;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  background: $colorGradient;
-  border-radius: 20px;
-  margin: 0px auto;
-  .coord-info {
+  background-color: $colorBackgroundThird;
+  border-radius: 10px;
+  margin: auto;
+  &__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 90px;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: solid 2px rgba($white, 0.8);
+  }
+  &__address {
     display: flex;
-    flex-direction: column;
-    width: calc(100% - 4px);
-    height: 396px;
-    background-color: $colorBackgroundSecond;
-    border-radius: 20px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 30px 0px 10px 10%;
+    .fa-location-crosshairs {
+      width: 30px;
+      height: 20px;
+      margin: 0px 20px 0px 0px;
+    }
+  }
+  &__phone {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 10px 0px 10px 10%;
+    .fa-mobile-screen-button {
+      width: 30px;
+      height: 20px;
+      margin: 0px 20px 0px 0px;
+    }
+  }
+  &__mail {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 10px 0px 20px 10%;
+    cursor: pointer;
+    .fa-envelope {
+      width: 30px;
+      height: 20px;
+      margin: 0px 20px 0px 0px;
+    }
+  }
+  .button-lien {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
     margin: auto;
-    &__title {
-      text-align: center;
-      font-size: 30px;
-      line-height: 90px;
-      width: 90%;
-      margin: 0px auto;
-      border-bottom: solid 2px rgba($white, 0.8);
-    }
-    &__address {
-      display: flex;
-      align-items: center;
-      font-size: 16px;
-      line-height: 25px;
-      margin: 30px 0px 10px 10%;
-      .fa-location-crosshairs {
-        width: 30px;
-        height: 20px;
-        margin: 0px 20px 0px 0px;
-      }
-    }
-    &__phone {
-      display: flex;
-      align-items: center;
-      font-size: 16px;
-      line-height: 25px;
-      margin: 10px 0px 10px 10%;
-      .fa-mobile-screen-button {
-        width: 30px;
-        height: 20px;
-        margin: 0px 20px 0px 0px;
-      }
-    }
-    &__mail {
-      display: flex;
-      align-items: center;
-      font-size: 16px;
-      line-height: 25px;
-      margin: 10px 0px 20px 10%;
-      cursor: pointer;
-      .fa-envelope {
-        width: 30px;
-        height: 20px;
-        margin: 0px 20px 0px 0px;
-      }
-    }
-    .button-lien {
-      display: flex;
-      justify-content: space-around;
-      width: 80%;
-      margin: auto;
-    }
   }
 }
 
 @media screen and (max-width: 720px) {
-  .coord-container {
+  .coord-info {
     width: 90%;
     margin-bottom: 15px;
   }

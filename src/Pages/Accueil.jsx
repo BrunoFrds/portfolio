@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import cvbf from "../../Assets/document/CV Bruno Fernandes.pdf";
+import cvbf from "../Assets/document/CV Bruno Fernandes.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 

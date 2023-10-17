@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 540px;
+  border-radius: 10px;
+  background-color: $colorBackgroundThird;
+  .list-title {
+    text-align: center;
+    font-size: 35px;
+    line-height: 90px;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: solid 2px rgba($white, 0.8);
+  }
+  .list-ul {
+    height: 440px;
+    width: 90%;
+    padding-top: 15px;
+    .list-element {
+      display: flex;
+      align-items: center;
+      height: 70px;
+      padding-left: 10px;
+      .list-text {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .list {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
