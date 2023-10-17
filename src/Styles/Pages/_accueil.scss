@@ -32,7 +32,7 @@
       flex-direction: column;
       align-items: center;
       color: $colorBackground;
-      background: $colorRadient;
+      background: $white;
       border-radius: 50%;
       width: 65px;
       transition: transform 0.1s ease-in-out;
@@ -56,8 +56,7 @@
       right: 65px;
       width: 65px;
       height: 65px;
-      background: #49d5e5;
-      filter: brightness(80%);
+      background: rgba($white, $alpha: 0.8);
       border-radius: 50%;
       z-index: -1;
       transition: transform 0.15s ease-in-out;
@@ -70,8 +69,7 @@
       left: 65px;
       width: 65px;
       height: 65px;
-      background: #49d5e5;
-      filter: brightness(60%);
+      background: rgba($white, $alpha: 0.7);
       border-radius: 50%;
       z-index: -2;
       transition: transform 0.2s ease-in-out;
