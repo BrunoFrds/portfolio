@@ -12,19 +12,28 @@
   background-color: $colorBackground;
   .navbar__links {
     display: flex;
-  }
-  .navbar__link {
-    font-size: 1.2rem;
-    padding: 0 10px;
-    color: $white;
-    opacity: 0.6;
-    &:hover {
-      opacity: 1;
+    .navbar__link {
+      font-size: 1.2rem;
+      padding: 0 10px;
+      color: $white;
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+      &:focus {
+        opacity: 1;
+      }
     }
-    &:focus {
-      opacity: 1;
+    .button-theme {
+      background-color: transparent;
+      border: 0px;
+      margin: 0px 20px 0px 20px;
+      .fa-circle-half-stroke {
+        color: $white;
+      }
     }
   }
+
   .navbar__burger {
     background: transparent;
     border: none;

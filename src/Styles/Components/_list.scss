@@ -5,7 +5,7 @@
   width: 30%;
   height: 540px;
   border-radius: 10px;
-  background-color: $colorBackgroundThird;
+  background-color: $colorBackgroundSecond;
   .list-title {
     text-align: center;
     font-size: 1.8rem;
@@ -36,5 +36,13 @@
   .list {
     width: 100%;
     margin-bottom: 30px;
+    .list-ul {
+      .list-element {
+        .list-img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
   }
 }

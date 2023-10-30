@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 45%;
   height: 400px;
-  background-color: $colorBackgroundThird;
+  background-color: $colorBackgroundSecond;
   border-radius: 10px;
   margin: auto;
   &__title {
@@ -34,7 +34,7 @@
         height: 30px;
         border: 0px;
         border-radius: 10px;
-        background-color: $colorBackgroundSecond;
+        background-color: $colorInput;
         color: $white;
         font-size: 15px;
         font-family: $fontRegular;
@@ -45,7 +45,7 @@
         height: 30px;
         border: 0px;
         border-radius: 10px;
-        background-color: $colorBackgroundSecond;
+        background-color: $colorInput;
         color: $white;
         font-size: 15px;
         font-family: $fontRegular;
@@ -64,7 +64,7 @@
         height: 90px;
         border: 0px;
         border-radius: 10px;
-        background-color: $colorBackgroundSecond;
+        background-color: $colorInput;
         color: $white;
         font-size: 15px;
         font-family: $fontRegular;
@@ -76,7 +76,7 @@
     .button-submit {
       width: 140px;
       height: 35px;
-      background: $colorBackgroundSecond;
+      background: $colorInput;
       border-radius: 10px;
       border: solid 1px $white;
       color: $white;

@@ -1,15 +1,15 @@
 .accueil {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: auto;
-  width: 90%;
+  width: 100%;
   height: 100vh;
   .accueil-presentation {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    margin: 0px auto;
+    margin-left: 50px;
     .accueil-title {
       font-size: 28px;
       font-weight: lighter;
@@ -62,7 +62,7 @@
       transition: transform 0.15s ease-in-out;
     }
     .hoveredOne {
-      transform: scale(1.4);
+      transform: scale(1.3);
     }
     .circle-two {
       position: relative;
@@ -75,7 +75,7 @@
       transition: transform 0.2s ease-in-out;
     }
     .hoveredTwo {
-      transform: scale(1.7);
+      transform: scale(1.5);
     }
   }
 }
@@ -85,17 +85,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    .accueil-title {
-      font-size: 22px !important;
-      font-weight: lighter;
-      text-align: center;
-    }
-    .accueil-description {
-      font-size: 16px !important;
-      line-height: 35px;
-      text-align: center;
-      padding: 0 !important;
+    .accueil-presentation {
+      margin: 0;
+      .accueil-title {
+        font-size: 22px !important;
+        font-weight: lighter;
+        text-align: center;
+      }
+      .accueil-description {
+        font-size: 16px !important;
+        line-height: 35px;
+        text-align: center;
+        padding: 0 !important;
+      }
     }
   }
 }
