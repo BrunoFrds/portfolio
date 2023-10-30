@@ -69,8 +69,8 @@ const ListeProjet = [
     name: "ToDoList",
     languages: ["Sass", "Javascript"],
     languagesIcons: [sass, javascript],
-    url: "https://kasa-loca.netlify.app/",
-    github: "https://brunofrds.github.io/todolist/ToDoList/",
+    url: "https://brunofrds.github.io/todolist/ToDoList/",
+    github: "https://github.com/BrunoFrds/todolist",
     picture: projImgToDo,
     description:
       "Création d'une application de tâches. Ajout, modification, suppression de tâches.",
