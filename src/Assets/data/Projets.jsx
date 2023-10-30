@@ -28,7 +28,8 @@ const ListeProjet = [
     name: "Ohmyfood",
     languages: ["HTML", "CSS / Sass"],
     languagesIcons: [html, sass],
-    github: "https://github.com/BrunoFrds/BrunoFrds.github.io.git",
+    url: "https://brunofrds.github.io/ohmyfood/Index.html",
+    github: "https://github.com/BrunoFrds/ohmyfood",
     picture: projImgOmf,
     description:
       "Mise en place de l'environnement frontend d'un site mobile de réservation de restaurants. Avec structure de navigation et effets CSS graphiques.",
