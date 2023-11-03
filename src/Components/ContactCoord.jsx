@@ -23,8 +23,7 @@ function ContactCoord() {
         <span className="address-icon">
           <FontAwesomeIcon icon={faLocation} />
         </span>
-        6 Avenue de la République <br />
-        93300 Aubervilliers
+        Paris
       </p>
       <p className="coord-info__phone">
         <span className="phone-icon">
