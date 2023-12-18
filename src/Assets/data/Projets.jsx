@@ -39,7 +39,6 @@ const ListeProjet = [
     name: "Kanap",
     languages: ["JavaScript"],
     languagesIcons: [javascript],
-    url: "",
     github: "https://github.com/BrunoFrds/Kanap",
     picture: projImgKanap,
     description:
