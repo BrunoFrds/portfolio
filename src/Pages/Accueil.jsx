@@ -31,16 +31,12 @@ const Accueil = () => {
   return (
     <div className="accueil">
       <div className="accueil-presentation">
-        <h2 className="accueil-title">Développeur Front-end</h2>
+        <h2 className="accueil-title">Développeur Web Full-Stack</h2>
         <p className="accueil-description">
-          Bonjour ! Je suis développeur FrontEnd.
+          Après plusieurs années d’expériences professionnelles variées et enrichissantes, j’ai choisi de me reconvertir dans un domaine qui me passionne depuis longtemps : le développement web.
           <br />
-          Autodidacte dans l'âme, j'ai aussi effectué une formation
-          professionnalisante. <br />
-          Cela m'a permis de travailler sur divers projets mettant en avant mes
-          compétences apprises. <br />
-          Vous trouverez ici un résumé de mes compétences et des projets que
-          j'ai pû effectuer.
+          Curieux et rigoureux, j’ai suivi une formation intensive au Wagon où j’ai acquis des compétences solides en Ruby on Rails, JavaScript, PostgreSQL, et plus encore. Depuis, je développe mes savoir-faire à travers des projets personnels et collaboratifs, que je vous invite à découvrir dans ce portfolio. <br />
+          Vous y trouverez une sélection de projets réalisés en équipe ou en autonomie, illustrant mon engagement et ma capacité à apprendre rapidement. Toujours ouvert à de nouvelles opportunités, je suis prêt à mettre mes compétences au service de projets ambitieux.
         </p>
       </div>
       <div className="accueil-pdf">
