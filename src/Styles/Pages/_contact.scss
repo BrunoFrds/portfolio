@@ -1,11 +1,9 @@
-.contact-page {
-  margin: auto;
-  .contact-back {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 60px auto;
-  }
+.contact-back {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  width: 100%;
+  margin: 60px auto;
 }
 
 @media screen and (max-width: 720px) {

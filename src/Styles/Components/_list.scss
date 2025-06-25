@@ -7,12 +7,15 @@
   border-radius: 10px;
   background-color: $colorBackgroundSecond;
   .list-title {
-    text-align: center;
-    font-size: 1.8rem;
-    line-height: 90px;
-    width: 90%;
-    margin: 0px auto;
-    border-bottom: solid 2px rgba($white, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  border-bottom: solid 2px rgba($white, 0.8);
+  text-align: center;
   }
   .list-ul {
     height: 440px;

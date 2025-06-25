@@ -10,15 +10,17 @@ import Footer from "./Layouts/Footer";
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/competences" element={<Competences />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Erreur />} />
-      </Routes>
-      <Footer />
+      <div className="layout">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Accueil />} />
+          <Route path="/competences" element={<Competences />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Erreur />} />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 };

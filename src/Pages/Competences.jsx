@@ -39,12 +39,10 @@ const Competences = () => {
     { icon: Check, text: "Notions de SEO" },
   ];
   return (
-    <div className="skills-page">
-      <div className="competences">
-        <List title={"Technologies"} elements={List1} />
-        <List title={"Outils"} elements={List2} />
-        <List title={"Compétences transverses"} elements={List3} />
-      </div>
+    <div className="competences">
+      <List title={"Technologies"} elements={List1} />
+      <List title={"Outils"} elements={List2} />
+      <List title={"Compétences transverses"} elements={List3} />
     </div>
   );
 };
