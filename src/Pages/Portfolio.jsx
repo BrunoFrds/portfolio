@@ -2,8 +2,6 @@ import ListeProjet from "../Assets/data/Projets";
 import Card from "../Components/Card";
 
 const Portfolio = () => {
-  const listeprojet = ListeProjet.map((proj) => proj.picture);
-  console.log(listeprojet);
   return (
     <div className="portfolio-page">
       <div className="portfolio-list">

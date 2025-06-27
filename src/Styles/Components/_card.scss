@@ -32,6 +32,15 @@
     border-radius: 10px;
     margin: auto;
   }
+  &__icons {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 25px;
+      height: 25px;
+      margin: 5px;
+    }
+  }
   &__info {
     display: none;
     height: 270px;
